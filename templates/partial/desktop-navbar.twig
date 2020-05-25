@@ -1,0 +1,23 @@
+<div class="container">
+	<nav id="nav-main" class="nav-main" role="navigation">
+		<div class="nav-container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-4">
+					<div class="nav-gif__wrapper">
+						<img class="d-block" src="{{site.theme.link}}/assets/images/caveira.gif" alt=""/>
+					</div>
+
+
+				</div>
+
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-10">
+					{% include "menu.twig" with {'items': menu.get_items} %}
+
+
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>

@@ -1,0 +1,47 @@
+.nav-main {
+  ul,
+  li,
+  a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $pink2;
+    font-family: "CMU Concrete", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+  }
+
+  .nav-gif__wrapper {
+    border: 2px solid $black;
+    box-shadow: 5px 5px $black;
+    width: 100px;
+    height: 100px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .nav-container {
+    padding: 20px;
+  }
+
+  @media (min-width: 992px) {
+    .nav-container {
+      padding: 60px;
+    }
+    .nav-gif__wrapper {
+      padding: 40px;
+      width: 100%;
+      height: auto;
+
+      img {
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+    .nav-items__wrapper {
+      padding-top: 60px;
+    }
+  }
+}

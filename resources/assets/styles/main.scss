@@ -1,1 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Didact+Gothic|Gabriela&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cmu-concrete");
+
+@import "./vars";
+@import "./global";
+
+// partials
+@import "./partials/navbar";

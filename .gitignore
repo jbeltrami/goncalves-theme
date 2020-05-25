@@ -4,3 +4,5 @@ composer.lock
 node_modules/
 resources/node_modules
 resources/.cache-loader
+assets/
+!resources/assets
