@@ -20,26 +20,28 @@
     img {
       width: 100%;
     }
-  }
 
-  .nav-container {
-    padding: 20px;
-  }
-
-  @media (min-width: 992px) {
-    .nav-container {
-      padding: 60px;
-    }
-    .nav-gif__wrapper {
+    @media (min-width: 992px) {
       padding: 40px;
       width: 100%;
       height: auto;
 
       img {
         margin: 0 auto;
-        width: 50%;
+        width: 70%;
       }
     }
+  }
+
+  .nav-container {
+    padding: 20px;
+
+    @media (min-width: 992px) {
+      padding: 60px;
+    }
+  }
+
+  @media (min-width: 992px) {
     .nav-items__wrapper {
       padding-top: 60px;
     }
