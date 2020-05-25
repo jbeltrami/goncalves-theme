@@ -1,0 +1,49 @@
+.self-portrait {
+  background-color: $pink1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  @media (min-width: 768px) {
+    margin-top: -170px;
+    z-index: -1;
+  }
+}
+
+.hello-you {
+  z-index: 2;
+}
+
+.toolbox__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  position: relative;
+
+  .toolbox__main {
+    width: 225px;
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 75px;
+      left: -150px;
+    }
+  }
+
+  .toolbox__skill--wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+
+    .toolbox__skill--single {
+      display: block;
+      margin: 25px;
+
+      img {
+        display: block;
+        width: 45px;
+        height: auto;
+      }
+    }
+  }
+}
